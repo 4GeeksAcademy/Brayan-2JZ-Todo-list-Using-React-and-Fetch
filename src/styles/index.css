@@ -22,8 +22,6 @@ ul {
 ul li{
     text-align: center;
 }
-
-.input {
-    border: none;
-    width: 100%;
+i{
+    cursor: pointer;
 }
