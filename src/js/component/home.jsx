@@ -104,7 +104,7 @@ const Home = () => {
 		.then((resp) => {
 			if (resp.ok) {
 				console.log("User has been added to API");
-				alert("Get back to work!!");
+				alert("Get back to work!! --User has been Created, Tasks are able to be saved in API");
 			}
 		})
 		.catch((error) => console.error("failed to create user in API", error));
